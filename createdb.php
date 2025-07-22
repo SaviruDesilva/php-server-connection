@@ -2,7 +2,7 @@
 
 include("conn.php");
 
-$result=mysqli_query($conn,"CREATE DATABASE IF NOT EXISTS jobseekers" );
+$result=mysqli_query($conn,"CREATE DATABASE IF NOT EXISTS seekers" );
 
 if(!$result){
 
