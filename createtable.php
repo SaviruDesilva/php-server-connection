@@ -2,7 +2,7 @@
 
 include("conn.php");
 
-mysqli_select_db($conn,"jobseekers");
+mysqli_select_db($conn,"seekers");
 
 //create tables
 
